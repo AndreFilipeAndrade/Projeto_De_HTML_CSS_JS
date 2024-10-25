@@ -1,19 +1,21 @@
+@charset "UTF-8";
+/*Estilização Geral*/
 * {
+    /*Junta as caixas, remove as bordas*/
     box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	font-family: "Roboto", sans-serif;
-    font-size: 1em;
-	background: #e6e6e6;
+	font-family: "Roboto", sans-serif;/*Tipo de fonte*/
+    font-size: 1em;/*Tamanho da fonte*/
+	background: #e6e6e6;/*Cor do fundo*/
 }
 h1{
-    color: #4e4e4e;
-	font-size: 2.5em;
-    text-align: center;
-
+    color: #4e4e4e;/*Cor da fonte*/
+	font-size: 2.5em;/*Tamanho da fonte*/
+    text-align: center;/*Centraliza o texto*/
 }
 
 .header{
