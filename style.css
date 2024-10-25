@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+    font-size: 1em;
+	background: #e6e6e6;
+}
+h1{
+    color: #4e4e4e;
+	font-size: 2.5em;
+    text-align: center;
+
+}
+
+.header{
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Usando flexbox para alinhamento */
+    justify-content: space-between; /* Espaçamento entre logo e menu */
+    align-items: center; /* Centraliza verticalmente */
+}
+.logo {
+    font-size: 24px; /* Tamanho da fonte da logo */
+    font-weight: bold; /* Fonte em negrito */
+}
+
+.nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    display: flex; /* Itens do menu em linha */
+}
+
+.nav li {
+    margin-left: 20px; /* Espaçamento entre os itens */
+}
+
+.nav a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 5px 10px; /* Espaçamento interno nos links */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efeito ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+#home {
+    background-color: #f9f9f9; /* Cor de fundo */
+}
+
+#sobre {
+    background-color: #e0f7fa; /* Cor de fundo */
+}
+
+#servicos {
+    background-color: #ffe0b2; /* Cor de fundo */
+}
+
+#contato {
+    background-color: #d1c4e9; /* Cor de fundo */
+}
+
+p {
+    font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+    line-height: 1.6; /* Altura da linha */
+    color: #333; /* Cor do texto */
+}
