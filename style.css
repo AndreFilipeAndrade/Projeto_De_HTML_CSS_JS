@@ -1,25 +1,35 @@
-@charset "UTF-8";
-/*Estilização Geral*/
 * {
-    /*Junta as caixas, remove as bordas*/
     box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-body {
-	font-family: "Roboto", sans-serif;/*Tipo de fonte*/
-    font-size: 1em;/*Tamanho da fonte*/
-	background: #e6e6e6;/*Cor do fundo*/
+html {
+    scroll-behavior: smooth; /* Habilita rolagem suave */
 }
+
+body {
+	font-family: "Roboto", sans-serif;
+    font-size: 1em;
+	background: #e6e6e6;
+}
+
 h1{
-    color: #4e4e4e;/*Cor da fonte*/
-	font-size: 2.5em;/*Tamanho da fonte*/
-    text-align: center;/*Centraliza o texto*/
+    color: #000;
+	font-size: 2.5em;
+    text-align: center;
+    text-shadow: 2px 2px 2px lightgrey;
+}
+
+h2{
+    color: #fff;
+	font-size: 2.5em;
+    text-align: center;
+    text-shadow: 1px 1px 2px red;
 }
 
 .header{
-    background-color: #4CAF50; /* Cor de fundo */
+    background-image: linear-gradient(to right, black, red);/*Define as cores de fundo(preto e vermelho) como gradientes*/
     color: white; /* Cor do texto */
     padding: 20px; /* Espaçamento interno */
     display: flex; /* Usando flexbox para alinhamento */
@@ -29,11 +39,17 @@ h1{
 .logo {
     font-size: 24px; /* Tamanho da fonte da logo */
     font-weight: bold; /* Fonte em negrito */
+    filter: drop-shadow(2px 2px 5px rgba(255, 0, 0, 50));/*Sombra vermelha na borda da imagem*/
+    width: 200px;
 }
 
 .nav ul {
     list-style-type: none; /* Remove marcadores da lista */
     display: flex; /* Itens do menu em linha */
+    border: solid 2px #FFFC00;
+    filter: drop-shadow(1px 1px 1px rgba(255, 0, 0, 50));
+    box-shadow: (2px 2px 2px rgba(255,0,0,100));
+    border-radius: 5px;
 }
 
 .nav li {
@@ -53,23 +69,35 @@ h1{
 }
 
 #home {
-    background-color: #f9f9f9; /* Cor de fundo */
+    background-image: linear-gradient(to left, black, red);/*Define as cores de fundo(preto e vermelho) como gradientes*/
+    border: solid red;
+    border-radius: 2px;
+    box-shadow: 20px 2px 2px;
 }
 
 #sobre {
-    background-color: #e0f7fa; /* Cor de fundo */
+    background-image: linear-gradient(to right, black, red);/*Define as cores de fundo(preto e vermelho) como gradientes*/
+    border: solid red;
+    border-radius: 2px;
+    box-shadow: 20px 2px 2px;
 }
 
 #servicos {
-    background-color: #ffe0b2; /* Cor de fundo */
+    background-image: linear-gradient(to left, black, red);/*Define as cores de fundo(preto e vermelho) como gradientes*/
+    border: solid red;
+    border-radius: 2px;
+    box-shadow: 20px 2px 2px;
 }
 
 #contato {
-    background-color: #d1c4e9; /* Cor de fundo */
+    background-image: linear-gradient(to right, black, red);/*Define as cores de fundo(preto e vermelho) como gradientes*/
+    border: solid red;
+    border-radius: 2px;
+    box-shadow: 20px 2px 2px;
 }
 
 p {
     font-size: 1.2em; /* Tamanho da fonte do parágrafo */
     line-height: 1.6; /* Altura da linha */
-    color: #333; /* Cor do texto */
+    color: #fff; /* Cor do texto */
 }
