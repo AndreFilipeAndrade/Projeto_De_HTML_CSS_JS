@@ -14,21 +14,21 @@ body {
 	background: #e6e6e6;
 }
 
-h1{
+h1 {
     color: #000;
 	font-size: 2.5em;
     text-align: center;
     text-shadow: 2px 2px 2px lightgrey;
 }
 
-h2{
+h2 {
     color: #fff;
 	font-size: 2.5em;
     text-align: center;
     text-shadow: 1px 1px 2px red;
 }
 
-.header{
+.header {
     background-image: linear-gradient(to right, black, red);/*Define as cores de fundo(preto e vermelho) como gradientes*/
     color: white; /* Cor do texto */
     padding: 20px; /* Espaçamento interno */
@@ -36,6 +36,7 @@ h2{
     justify-content: space-between; /* Espaçamento entre logo e menu */
     align-items: center; /* Centraliza verticalmente */
 }
+
 .logo {
     font-size: 24px; /* Tamanho da fonte da logo */
     font-weight: bold; /* Fonte em negrito */
@@ -43,13 +44,19 @@ h2{
     width: 200px;
 }
 
+.logo-preta{
+    font-size: 24px; /* Tamanho da fonte da logo */
+    font-weight: bold; /* Fonte em negrito */
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 50));/*Sombra vermelha na borda da imagem*/
+    width: 200px;
+}
 .nav ul {
     list-style-type: none; /* Remove marcadores da lista */
     display: flex; /* Itens do menu em linha */
-    border: solid 2px #FFFC00;
-    filter: drop-shadow(1px 1px 1px rgba(255, 0, 0, 50));
+    border: solid 2px #FFFC00;/*mostra a caixa da borda e adiciona cor*/
+    filter: drop-shadow(1px 1px 1px rgba(255, 0, 0, 50));/*sombra leve ao redor da caixa*/
     box-shadow: (2px 2px 2px rgba(255,0,0,100));
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .nav li {
@@ -68,6 +75,17 @@ h2{
     border-radius: 5px; /* Bordas arredondadas */
 }
 
+.rolar-ao-top {
+    text-decoration: none; /* Remove sublinhado */
+    color: rgb(200, 0, 0); /* Herda a cor do texto */
+    text-shadow: 2px 2px 2px gray;
+    font-size: 1.5em; /* Tamanho da fonte */
+    display: block; /* Para centralizar o link */
+    margin-top: 20px; /* Espaçamento acima do link*/
+}
+#top {
+    color: inherit;
+}
 #home {
     background-image: linear-gradient(to left, black, red);/*Define as cores de fundo(preto e vermelho) como gradientes*/
     border: solid red;
